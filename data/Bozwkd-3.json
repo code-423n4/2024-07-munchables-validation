@@ -1,0 +1,8 @@
+{
+  "contest": 414,
+  "handle": "Bozwkd",
+  "risk": "2",
+  "title": "Using `ERC721.transferFrom()` may cause the user's NFT to be frozen in a contract that does not support ERC721",
+  "issueId": 3,
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/3"
+}
