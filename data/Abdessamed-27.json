@@ -1,0 +1,8 @@
+{
+  "contest": 414,
+  "handle": "Abdessamed",
+  "risk": "3",
+  "title": "Incorrect check to verify if plotId exceeds available plots in `_farmPlots`",
+  "issueId": 27,
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/27"
+}
