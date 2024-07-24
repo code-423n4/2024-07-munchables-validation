@@ -24,6 +24,8 @@ As can be seen from the below codes, some of contract state names and their stor
     }
 ```
 
+As `uintStorage` values corresponding to the above keys are not being used by others, it won't make any serious problem, but I think adding new correct key names to `StorageKey` is ideal.
+
 ## It would be better if `finalBonus` in `_farmPlots()` has its upper limit.
 
 After checking `BonusManager::getFeedBonus()` function, I have feeling that bonus values have upper limit as 100%.
