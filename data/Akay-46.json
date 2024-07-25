@@ -1,0 +1,8 @@
+{
+  "contest": 414,
+  "handle": "Akay",
+  "risk": "2",
+  "title": "The unbounded Loop in `_farmPlots` Function may lead to the block gas limit being exceeded",
+  "issueId": 46,
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/46"
+}
