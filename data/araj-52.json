@@ -1,0 +1,8 @@
+{
+  "contest": 414,
+  "handle": "araj",
+  "risk": "3",
+  "title": "Wrong input validation while tracking a dirty bool in _farmPlots()",
+  "issueId": 52,
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/52"
+}
