@@ -111,3 +111,4 @@ function getSmallIntArray(
     return smallIntArray;
 }
 
+reducing keccak256 operations in the loop make the function more gas-efficient.
