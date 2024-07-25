@@ -1,0 +1,8 @@
+{
+  "contest": 414,
+  "handle": "MoskowHunter",
+  "risk": "2",
+  "title": "getSmallIntArray in ConfigStorage.sol length mismatch between smallIntArrayStorageLength[_key] and smallIntArrayStorage",
+  "issueId": 31,
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/31"
+}
