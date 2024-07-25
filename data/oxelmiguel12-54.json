@@ -1,0 +1,8 @@
+{
+  "contest": 414,
+  "handle": "oxelmiguel12",
+  "risk": "2",
+  "title": "Insufficient Bounds Check on REALM_BONUSES Array Leading to possible Out-of-Bounds Errors",
+  "issueId": 54,
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/54"
+}
