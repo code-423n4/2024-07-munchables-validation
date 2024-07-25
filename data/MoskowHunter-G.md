@@ -81,3 +81,33 @@ function getUintArray(
 keccak256(abi.encodePacked(_key)) is hashed once and reused within the loop with keccak256(abi.encodePacked(baseKey, i))
 
 also "return" can imrove readability an minimal minor gas saving.
+
+3.
+function getSmallIntArray(
+    StorageKey _key
+) public view returns (int16[] memory _smallIntArray) {
+    int16[] memory smallIntArray = new int16[](
+        smallIntArrayStorageLength[_key]
+    );
+    for (uint8 i; i < smallIntArrayStorageLength[_key]; i++) {
+        bytes32 encodedKey = keccak256(abi.encodePacked(_key, i));
+        smallIntArray[i] = smallIntArrayStorage[encodedKey];
+    }
+    _smallIntArray = smallIntArray;
+}
+same like in 2. The key is re-hashed with keccak256(abi.encodePacked(_key, i)) in every iteration. rewrite that the key hashed once:
+function getSmallIntArray(
+    StorageKey _key
+) public view returns (int16[] memory) {
+    uint8 length = smallIntArrayStorageLength[_key];
+    int16[] memory smallIntArray = new int16[](length);
+
+    bytes32 baseKey = keccak256(abi.encodePacked(_key));
+
+    for (uint8 i = 0; i < length; i++) {
+        bytes32 encodedKey = keccak256(abi.encodePacked(baseKey, i));
+        smallIntArray[i] = smallIntArrayStorage[encodedKey];
+    }
+    return smallIntArray;
+}
+
