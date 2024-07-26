@@ -1,0 +1,8 @@
+{
+  "contest": 414,
+  "handle": "ironside",
+  "risk": "2",
+  "title": "Munchables remain unproductive after `transferToUnoccupiedPlot` due to an uncleared 'dirty' flag, leading to loss of Schnibble generation",
+  "issueId": 101,
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/101"
+}
