@@ -1,0 +1,8 @@
+{
+  "contest": 414,
+  "handle": "bearonbike",
+  "risk": "3",
+  "title": "Malicious actor can take advantage of `transferToUnoccupiedPlot` to occupy plot with almost no costs.",
+  "issueId": 83,
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/83"
+}
