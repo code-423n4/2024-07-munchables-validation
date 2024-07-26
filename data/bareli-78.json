@@ -1,0 +1,8 @@
+{
+  "contest": 414,
+  "handle": "bareli",
+  "risk": "2",
+  "title": "\"munchablesStaked[mainAccount]\"  can be grater than 10.",
+  "issueId": 78,
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/78"
+}
