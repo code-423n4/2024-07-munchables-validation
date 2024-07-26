@@ -1,0 +1,8 @@
+{
+  "contest": 414,
+  "handle": "Drynooo",
+  "risk": "2",
+  "title": "The transferToUnoccupiedPlot function does not consider dirty NFTs",
+  "issueId": 89,
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/89"
+}
