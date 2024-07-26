@@ -1,0 +1,8 @@
+{
+  "contest": 414,
+  "handle": "ironside",
+  "risk": "2",
+  "title": "Munchable's `plotId` not updated during `transferToUnoccupiedPlot`",
+  "issueId": 102,
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/102"
+}
