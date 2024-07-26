@@ -1,0 +1,8 @@
+{
+  "contest": 414,
+  "handle": "0x3b",
+  "risk": "2",
+  "title": "`renterMetadata.lastPetMunchable` is not updated",
+  "issueId": 79,
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/79"
+}
