@@ -6,3 +6,11 @@
     for (uint8 i = 0; i < staked.length; i++) {
 -       timestamp = block.timestamp;
 ```
+
+[QA-02] Users can avoid staking restriction by using another account
+Users would be able to avoid this check inside [stakeMunchable](https://github.com/code-423n4/2024-07-munchables/blob/main/src/managers/LandManager.sol#L140-L141) by using another account.
+```solidity
+        if (munchablesStaked[mainAccount].length > 10) {
+            revert TooManyStakedMunchiesError();
+        }
+```
