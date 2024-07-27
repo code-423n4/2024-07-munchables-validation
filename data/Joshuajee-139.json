@@ -1,0 +1,8 @@
+{
+  "contest": 414,
+  "handle": "Joshuajee",
+  "risk": "3",
+  "title": "The `transferToUnoccupiedPlot` function doesn't update `toilerState[tokenId].plotId` to the new plotID, a malicious user can DOS a landlord by occupying all their plots with one token. ",
+  "issueId": 139,
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/139"
+}
