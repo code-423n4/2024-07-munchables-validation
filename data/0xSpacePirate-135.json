@@ -1,0 +1,8 @@
+{
+  "contest": 414,
+  "handle": "0xSpacePirate",
+  "risk": "3",
+  "title": "Incorrect variable assignment and tokenId deletion",
+  "issueId": 135,
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/135"
+}
