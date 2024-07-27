@@ -1,0 +1,8 @@
+{
+  "contest": 414,
+  "handle": "0xSpacePirate",
+  "risk": "2",
+  "title": " Missing onERC721Received in LandManager.sol",
+  "issueId": 134,
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/134"
+}
