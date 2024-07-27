@@ -1,0 +1,8 @@
+{
+  "contest": 414,
+  "handle": "X1pherW0lf",
+  "risk": "2",
+  "title": "Missing return values check for transferFrom()",
+  "issueId": 137,
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/137"
+}
