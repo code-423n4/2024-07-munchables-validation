@@ -1,20 +1,20 @@
+
 # QA for Munchables
 
 ## Table of Contents
 
 | Issue ID | Description |
 | -------- | ----------- |
-| [QA-01](#qa-01-lingering-token-approvals-in-landmanager-contract-may-lead-to-unauthorized-staking-of-munchables) | Lingering token approvals in LandManager contract may lead to unauthorized staking of Munchables |
+| [QA-01](#qa-01-lingering-token-approvals-in-landmanager-may-lead-to-unauthorized-staking-of-munchables) | Lingering token approvals in `LandManager` may lead to unauthorized staking of Munchables |
 | [QA-02](#qa-02-transfertounoccupiedplot-fails-to-update-toilerstateplotid-leading-to-incorrect-plot-tracking-and-could-also-unnecessarily-mark-plots-as-dirty) | `transferToUnoccupiedPlot` fails to update `toilerState.plotId`, leading to incorrect plot tracking and could also unnecessarily mark plots as "dirty" |
 | [QA-03](#qa-03-tax-rate-updates-bypass-timestamp-refresh-distorting-schnibble-calculations-for-invalid-plots) | Tax rate updates bypass `Timestamp` refresh, distorting Schnibble calculations for invalid plots |
 | [QA-04](#qa-04-improper-initialization-in-landmanager-allows-partial-state-setup-risking-inconsistent-behavior) | Improper initialization in `LandManager` allows partial state setup, risking inconsistent behavior |
-| [QA-05](#qa-05-incorrect-timestamp-handling-in-_farmplots-function-leading-to-potential-inaccurate-schnibbles-calculation) | Incorrect Timestamp Handling in `_farmPlots` Function Leading to Potential Inaccurate Schnibbles Calculation |
+| [QA-05](#qa-05-inaccurate-timestamp-handling-in-_farmplots-function-leading-to-potential-inaccurate-schnibbles-calculation) | Inaccurate timestamp handling in `_farmPlots` function leading to potential inaccurate Schnibbles calculation |
 | [QA-06](#qa-06-repurposed-storagekeys-in-landmanager-compromise-code-clarity) | Repurposed StorageKeys in `LandManager` compromise code clarity |
 | [QA-07](#qa-07-incorrect-staking-limit-check-allows-users-to-stake-11-munchables-instead-of-intended-10) | Incorrect staking limit check allows users to stake `11` munchables instead of intended `10` |
+| [QA-08](#qa-08-precision-loss-in-landlord-schnibble-calculation) | Precision loss in landlord Schnibble calculation |
 
-
-
-## [QA-01] Lingering token approvals in LandManager contract may lead to unauthorized staking of Munchables
+## [QA-01] Lingering token approvals in `LandManager` may lead to unauthorized staking of Munchables
 
 #### Impact
 The `LandManager` contract lacks a mechanism to revoke or reset token approvals after they are granted. This could potentially allow the contract to stake Munchables without the current intent of the token owner, if they forget to revoke approvals directly through the `MunchNFT` contract. 
@@ -247,7 +247,7 @@ In the LandManager's `initialize` function, call all necessary internal initiali
 
 
 
-## [QA-05] Incorrect Timestamp Handling in `_farmPlots` Function Leading to Potential Inaccurate Schnibbles Calculation
+## [QA-05] Inaccurate timestamp handling in `_farmPlots` function leading to potential inaccurate Schnibbles calculation
 
 #### Proof of Concept
 
@@ -567,3 +567,68 @@ function stakeMunchable(
     // ... rest of the function
 }
 ```
+
+
+## [QA-08] Precision loss in landlord Schnibble calculation
+
+#### Impact
+The current implementation of the schnibble calculation for landlords can result in significant precision loss, potentially leading to landlords receiving fewer schnibbles than they should. In extreme cases, particularly with small `schnibblesTotal` values or low tax rates, landlords might receive no schnibbles at all when they should have received a small amount.
+
+#### Proof of Concept
+
+https://github.com/code-423n4/2024-07-munchables/blob/94cf468aaabf526b7a8319f7eba34014ccebe7b9/src/managers/LandManager.sol#L279-L289
+
+```solidity
+    schnibblesTotal =
+        (timestamp - _toiler.lastToilDate) *
+        BASE_SCHNIBBLE_RATE;
+    schnibblesTotal = uint256(
+        (int256(schnibblesTotal) +
+            (int256(schnibblesTotal) * finalBonus)) / 100
+    );
+ ❌  schnibblesLandlord =
+        (schnibblesTotal * _toiler.latestTaxRate) /
+        1e18;
+```
+
+The issue lies in how the calculation of `schnibblesLandlord` is done. The `_toiler.latestTaxRate` is likely represented as a value between `0` and `1e18` (where 1e18 is 100%). When multiplying `schnibblesTotal` by `_toiler.latestTaxRate`, the result is a very large number due to the tax rate's 18 decimal places. The subsequent division by 1e18 can lead to significant loss of precision or even round down to zero for small values of `schnibblesTotal` or low tax rates.
+
+Forr example:
+Let's say `schnibblesTotal` is 100 and the tax rate is 1% (represented as 1e16 in `LandManager`).
+
+Current calculation will be:
+```
+schnibblesLandlord = (100 * 1e16) / 1e18 = 1000000000000000000 / 1e18 = 1
+```
+
+Expected calculation should be:
+```
+schnibblesLandlord = 100 * (1e16 / 1e18) = 100 * 0.01 = 1
+```
+
+Although in this case, the result is correct. Albeit, if `schnibblesTotal` were 99 instead:
+
+Current calculation:
+```
+schnibblesLandlord = (99 * 1e16) / 1e18 = 990000000000000000 / 1e18 = 0
+```
+
+Expected calculation:
+```
+schnibblesLandlord = 99 * (1e16 / 1e18) = 99 * 0.01 = 0.99
+```
+
+In this case, the landlord receives 0 schnibbles instead of the expected 0.99 and will be on the losing end.
+
+#### Recommended Mitigation Steps
+Rearrange the calculation to minimize precision loss: 
+```diff
+- schnibblesLandlord =
+-     (schnibblesTotal * _toiler.latestTaxRate) /
+-     1e18;
++ schnibblesLandlord = schnibblesTotal * (_toiler.latestTaxRate / 1e18);
+```
+
+For even greater precision, consider implementing a fixed-point math library specifically designed for these types of calculations.
+
+
