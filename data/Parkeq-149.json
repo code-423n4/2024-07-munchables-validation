@@ -1,0 +1,8 @@
+{
+  "contest": 414,
+  "handle": "Parkeq",
+  "risk": "2",
+  "title": "ERC721 should use safeTransferFrom",
+  "issueId": 149,
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/149"
+}
