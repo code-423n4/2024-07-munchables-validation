@@ -1,0 +1,8 @@
+{
+  "contest": 414,
+  "handle": "rare_one",
+  "risk": "2",
+  "title": "Potential Reentrancy Issues",
+  "issueId": 152,
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/152"
+}
