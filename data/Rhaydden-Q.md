@@ -10,6 +10,7 @@
 | [QA-04](#qa-04-improper-initialization-in-landmanager-allows-partial-state-setup-risking-inconsistent-behavior) | Improper initialization in `LandManager` allows partial state setup, risking inconsistent behavior |
 | [QA-05](#qa-05-incorrect-timestamp-handling-in-_farmplots-function-leading-to-potential-inaccurate-schnibbles-calculation) | Incorrect Timestamp Handling in `_farmPlots` Function Leading to Potential Inaccurate Schnibbles Calculation |
 | [QA-06](#qa-06-repurposed-storagekeys-in-landmanager-compromise-code-clarity) | Repurposed StorageKeys in `LandManager` compromise code clarity |
+| [QA-07](#qa-07-incorrect-staking-limit-check-allows-users-to-stake-11-munchables-instead-of-intended-10) | Incorrect staking limit check allows users to stake `11` munchables instead of intended `10` |
 
 
 
@@ -519,3 +520,50 @@ While this approach solves the immediate problem of storing new configuration va
 #### Recommended Mitigation Steps
 Consider adding  detailed comments in both `LandManager` and `IConfigStorage` contracts explaining the repurposing of these StorageKey values for LandManager's tax rates. Also implement additional checks or assertions in the configuration retrieval process to ensure these StorageKey values are used correctly in different contexts.
 
+
+
+## [QA-07] Incorrect staking limit check allows users to stake `11` munchables instead of intended `10`
+
+#### Impact
+The current implementation allows users to stake up to 11 Munchables, exceeding the intended maximum of 10. This could lead to an imbalance in the game protocol, potentially giving some users an unfair advantage by allowing them to earn more rewards than intended. 
+
+#### Proof of Concept
+https://github.com/code-423n4/2024-07-munchables/blob/94cf468aaabf526b7a8319f7eba34014ccebe7b9/src/managers/LandManager.sol#L140
+
+```solidity
+    function stakeMunchable(
+        address landlord,
+        uint256 tokenId,
+        uint256 plotId
+    ) external override forceFarmPlots(msg.sender) notPaused {
+        // ... other checks ...
+ @>     if (munchablesStaked[mainAccount].length > 10)
+            revert TooManyStakedMunchiesError();
+        // ... rest of the function
+}
+```
+
+The condition `munchablesStaked[mainAccount].length > 10` only reverts when trying to stake the 12th Munchable. This means:
+
+1. A user can successfully stake their 1st to 10th Munchable.
+2. They can also stake their 11th Munchable, as 11 is not greater than 10.
+3. The error is only thrown when trying to stake the 12th Munchable.
+
+As a result, users can stake 11 Munchables instead of the intended maximum of 10.
+
+#### Recommended Mitigation Steps
+Change the condition to use greater than or equal to (`>=`) instead of strictly greater than (`>`):
+
+```diff
+function stakeMunchable(
+    address landlord,
+    uint256 tokenId,
+    uint256 plotId
+) external override forceFarmPlots(msg.sender) notPaused {
+    // ... other checks ...
+-   if (munchablesStaked[mainAccount].length > 10)
++   if (munchablesStaked[mainAccount].length >= 10)
+        revert TooManyStakedMunchiesError();
+    // ... rest of the function
+}
+```
