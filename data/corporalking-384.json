@@ -1,0 +1,8 @@
+{
+  "contest": 414,
+  "handle": "corporalking",
+  "risk": "3",
+  "title": "transferToUnoccupiedPlot function lacks toiler state change for the new associated plotId",
+  "issueId": 384,
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/384"
+}
