@@ -1,0 +1,8 @@
+{
+  "contest": 414,
+  "handle": "eta",
+  "risk": "2",
+  "title": "Subaccounts Can Modify Landlord's Tax Rate Through `updateTaxRate` Function in `LandManager` Contract",
+  "issueId": 228,
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/228"
+}
