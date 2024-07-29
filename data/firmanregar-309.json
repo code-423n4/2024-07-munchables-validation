@@ -1,0 +1,8 @@
+{
+  "contest": 414,
+  "handle": "firmanregar",
+  "risk": "3",
+  "title": "The `initialize` function, protected by the `initializer` modifier, is designed to be called only once. However, if not properly secured, it could be invoked by unauthorized parties, potentially reconfiguring the contract with unauthorized settings.",
+  "issueId": 309,
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/309"
+}
