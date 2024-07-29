@@ -183,3 +183,40 @@ In real time scenarios, the functionality to pause unstakes can serve as a doubl
 Recommend removing the `notPaused` modifier from `unstakeMunchable` function.
 
 ***
+
+## 5. Contracts might have issues deploying on blast due to solidity version
+
+Links to affected code *
+
+https://github.com/code-423n4/2024-07-munchables/blob/94cf468aaabf526b7a8319f7eba34014ccebe7b9/src/managers/LandManager.sol#L2
+
+### Impact
+Solidity version 0.8.23 introduces the MCOPY opcode, this may not be implemented on all chains and L2 thus reducing the portability and compatibility of the code. Consider using a earlier solidity version.
+
+```
+pragma solidity 0.8.25;
+```
+
+***
+
+## 6 Consider using named mappings
+
+Links to affected code *
+
+https://github.com/code-423n4/2024-07-munchables/blob/94cf468aaabf526b7a8319f7eba34014ccebe7b9/src/managers/LandManager.sol#L20-L29
+
+### Impact
+
+```solidity
+    // landlord to plot metadata
+    mapping(address => PlotMetadata) plotMetadata;
+    // landlord to plot id to plot
+    mapping(address => mapping(uint256 => Plot)) plotOccupied;
+    // token id to original owner
+    mapping(uint256 => address) munchableOwner;
+    // main account to staked munchables list
+    mapping(address => uint256[]) munchablesStaked;
+    // token id -> toiler state
+    mapping(uint256 => ToilerState) toilerState;
+```
+***
