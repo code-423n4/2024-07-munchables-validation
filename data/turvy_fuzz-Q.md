@@ -6,6 +6,7 @@ if (plotId >= totalPlotsAvail) revert PlotTooHighError();
 ```
 but uses just < in _farmPlot():
 ```solidity
+if (_getNumPlots(landlord) < _toiler.plotId) {
 ```
 **Recommendation**
 Ensure invariants on allowed plotId are consistent
