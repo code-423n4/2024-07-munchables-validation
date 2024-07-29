@@ -1,0 +1,8 @@
+{
+  "contest": 414,
+  "handle": "TPSec",
+  "risk": "2",
+  "title": "A malicious user can receive schnibbles rewards without having a locked amount throughout the full period",
+  "issueId": 341,
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/341"
+}
