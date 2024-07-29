@@ -1,0 +1,8 @@
+{
+  "contest": 414,
+  "handle": "vinica_boy",
+  "risk": "2",
+  "title": "Transaction ordering can result in user staking a munchible to higher tax rate than expected",
+  "issueId": 324,
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/324"
+}
