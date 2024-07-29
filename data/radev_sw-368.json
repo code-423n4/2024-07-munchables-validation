@@ -1,0 +1,8 @@
+{
+  "contest": 414,
+  "handle": "radev_sw",
+  "risk": "2",
+  "title": "`plotId` not updated in `LandManager.sol#transferToUnoccupiedPlot()` function",
+  "issueId": 368,
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/368"
+}
