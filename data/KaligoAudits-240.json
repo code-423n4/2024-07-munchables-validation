@@ -1,0 +1,8 @@
+{
+  "contest": 414,
+  "handle": "KaligoAudits",
+  "risk": "3",
+  "title": "Miscalculation in _farmPlots function could lead to a stuck NFT of a user",
+  "issueId": 240,
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/240"
+}
