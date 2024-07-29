@@ -1,0 +1,8 @@
+{
+  "contest": 414,
+  "handle": "Maroutis",
+  "risk": "2",
+  "title": "Incorrect percentage calculation in `_farmPlots` leads to significant reduction in `unfedSchnibbles`",
+  "issueId": 287,
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/287"
+}
