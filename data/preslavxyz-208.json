@@ -1,0 +1,8 @@
+{
+  "contest": 414,
+  "handle": "preslavxyz",
+  "risk": "3",
+  "title": "Denial of Service due to a possible division by zero",
+  "issueId": 208,
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/208"
+}
