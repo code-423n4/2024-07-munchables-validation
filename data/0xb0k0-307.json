@@ -1,0 +1,8 @@
+{
+  "contest": 414,
+  "handle": "0xb0k0",
+  "risk": "2",
+  "title": "Missing index check in `LandManager::_farmPlots()` could lead to DoS due to out-of-bonds error",
+  "issueId": 307,
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/307"
+}
