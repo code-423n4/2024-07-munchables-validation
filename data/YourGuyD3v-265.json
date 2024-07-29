@@ -1,0 +1,8 @@
+{
+  "contest": 414,
+  "handle": "YourGuyD3v",
+  "risk": "3",
+  "title": "Not checking return value in ERC721 transferFrom ",
+  "issueId": 265,
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/265"
+}
