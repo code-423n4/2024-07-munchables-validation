@@ -1,0 +1,8 @@
+{
+  "contest": 414,
+  "handle": "unRekt",
+  "risk": "2",
+  "title": "Return value of `transferFrom` is not checked in `stakeMunchable` function, in case of failure one can still successfully stake munchable. ",
+  "issueId": 279,
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/279"
+}
