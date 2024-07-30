@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Incorrect calculation logic leads to inflated farmed schnibbles ",
   "issueId": 297,
-  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/297"
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/297",
+  "validatedIssueId": 148,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-munchables-findings/issues/148"
 }
