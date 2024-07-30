@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Reversion in `_farmPlots()` Function Due to Incorrect `timestamp` Usage",
   "issueId": 81,
-  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/81"
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/81",
+  "validatedIssueId": 253,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-munchables-findings/issues/253"
 }
