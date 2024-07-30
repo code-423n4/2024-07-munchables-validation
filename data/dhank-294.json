@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "PlotId is not updated wven though the Plot of the NFT is changed",
   "issueId": 294,
-  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/294"
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/294",
+  "validatedIssueId": 151,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-munchables-findings/issues/151"
 }
