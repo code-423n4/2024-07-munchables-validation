@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Landlords will continue to earn schnibbles even without active plots",
   "issueId": 204,
-  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/204"
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/204",
+  "validatedIssueId": 196,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-munchables-findings/issues/196"
 }
