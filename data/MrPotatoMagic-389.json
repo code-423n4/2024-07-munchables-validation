@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Blacklisted munchNFT staked in LandManager.sol continues earning rewards",
   "issueId": 389,
-  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/389"
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/389",
+  "validatedIssueId": 98,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-munchables-findings/issues/98"
 }
