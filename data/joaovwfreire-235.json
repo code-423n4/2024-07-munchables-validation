@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Only users who call the LandManager contract may get their toiler states dirty",
   "issueId": 235,
-  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/235"
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/235",
+  "validatedIssueId": 180,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-munchables-findings/issues/180"
 }
