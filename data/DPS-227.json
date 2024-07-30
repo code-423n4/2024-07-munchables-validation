@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "`_farmPlots()` will get DoSed because of an overflow when calculating `schnibblesTotal`",
   "issueId": 227,
-  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/227"
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/227",
+  "validatedIssueId": 183,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-munchables-findings/issues/183"
 }
