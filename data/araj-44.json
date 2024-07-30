@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "`plotId` of toilerState is not updated in transferToUnoccupiedPlot()",
   "issueId": 44,
-  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/44"
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/44",
+  "validatedIssueId": 272,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-munchables-findings/issues/272"
 }
