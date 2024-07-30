@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "If _farmPlots is executed when _getNumPlots(landlord) < _toiler.plotId is true for a staked munchable, the schnibblesTotal produced will not be accounted for until the munchable is unstaked and staked again.",
   "issueId": 110,
-  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/110"
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/110",
+  "validatedIssueId": 237,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-munchables-findings/issues/237"
 }
