@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "`plotId` not updated in `LandManager.sol#transferToUnoccupiedPlot()` function",
   "issueId": 368,
-  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/368"
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/368",
+  "validatedIssueId": 113,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-munchables-findings/issues/113"
 }
