@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Invalid Stake Limits for Munchables in the LandManager Contract",
   "issueId": 231,
-  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/231"
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/231",
+  "validatedIssueId": 82,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-munchables-findings/issues/82"
 }
