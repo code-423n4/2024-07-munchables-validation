@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "The Plot is not marked dirty in _farmPlots() when PlotId == No of Plots",
   "issueId": 120,
-  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/120"
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/120",
+  "validatedIssueId": 232,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-munchables-findings/issues/232"
 }
