@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Setting negative REALM_BONUSES results in inaccurate math",
   "issueId": 129,
-  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/129"
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/129",
+  "validatedIssueId": 228,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-munchables-findings/issues/228"
 }
