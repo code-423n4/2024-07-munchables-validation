@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Key state changes not made to `toilerState` mapping during `transferToUnoccupiedPlot` preventing correct issuance of rewards",
   "issueId": 232,
-  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/232"
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/232",
+  "validatedIssueId": 182,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-munchables-findings/issues/182"
 }
