@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Landlords can change the tax rate just before the user stakes their tokens, altering the expected terms.",
   "issueId": 119,
-  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/119"
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/119",
+  "validatedIssueId": 233,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-munchables-findings/issues/233"
 }
