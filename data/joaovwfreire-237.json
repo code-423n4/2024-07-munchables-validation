@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Staking to plotId zero confers advantages to the staker",
   "issueId": 237,
-  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/237"
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/237",
+  "validatedIssueId": 178,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-munchables-findings/issues/178"
 }
