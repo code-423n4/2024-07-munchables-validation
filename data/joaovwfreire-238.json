@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Transferring a tokenId to an unoccupied plot doesn't make its dirty state set to false",
   "issueId": 238,
-  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/238"
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/238",
+  "validatedIssueId": 177,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-munchables-findings/issues/177"
 }
