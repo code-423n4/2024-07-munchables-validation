@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Critical Front-Running Exploit: How Malicious Landlords Can Deceive Renters and Compromise the Integrity of the Munchables NFT Platform",
   "issueId": 124,
-  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/124"
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/124",
+  "validatedIssueId": 230,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-munchables-findings/issues/230"
 }
