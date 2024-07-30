@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Incorrect calculation of user's earned schnibbles in farmPlots",
   "issueId": 284,
-  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/284"
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/284",
+  "validatedIssueId": 157,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-munchables-findings/issues/157"
 }
