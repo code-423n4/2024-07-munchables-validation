@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "`_farmPlots` is not detecting properly the `plot's dirtiness` which might allow player to earn even on an invalid plot",
   "issueId": 24,
-  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/24"
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/24",
+  "validatedIssueId": 282,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-munchables-findings/issues/282"
 }
