@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "The transferToUnoccupiedPlot function does not consider dirty NFTs",
   "issueId": 89,
-  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/89"
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/89",
+  "validatedIssueId": 248,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-munchables-findings/issues/248"
 }
