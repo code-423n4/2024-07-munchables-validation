@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "UpdateTaxRate()'s new taxRate could be neglected from stakers that do not take any action deeming the newTaxRate insubstantial.",
   "issueId": 220,
-  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/220"
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/220",
+  "validatedIssueId": 188,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-munchables-findings/issues/188"
 }
