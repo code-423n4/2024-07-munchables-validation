@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Wrong input validation while tracking a dirty bool in _farmPlots()",
   "issueId": 52,
-  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/52"
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/52",
+  "validatedIssueId": 267,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-munchables-findings/issues/267"
 }
