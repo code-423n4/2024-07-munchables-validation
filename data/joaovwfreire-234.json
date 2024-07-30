@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Updating a land's tax rate does not enforce users to pay for it ",
   "issueId": 234,
-  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/234"
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/234",
+  "validatedIssueId": 181,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-munchables-findings/issues/181"
 }
