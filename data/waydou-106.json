@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "plotId not updated after transfer toUnoccupied plot",
   "issueId": 106,
-  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/106"
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/106",
+  "validatedIssueId": 239,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-munchables-findings/issues/239"
 }
