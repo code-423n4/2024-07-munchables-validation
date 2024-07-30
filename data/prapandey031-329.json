@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "No set of ```toilerState.plotId``` in ```transferToUnoccupiedPlot()``` function could lead to DoS",
   "issueId": 329,
-  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/329"
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/329",
+  "validatedIssueId": 131,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-munchables-findings/issues/131"
 }
