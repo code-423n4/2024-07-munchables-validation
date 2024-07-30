@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "transferToUnoccupiedPlot() does not reset the toiler.dirty flag whenever we occupy a new \"clean\" slot",
   "issueId": 224,
-  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/224"
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/224",
+  "validatedIssueId": 184,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-munchables-findings/issues/184"
 }
