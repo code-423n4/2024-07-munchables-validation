@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Users staked at plot id zero of a lender can always farmPlots even when the lender have no plots",
   "issueId": 159,
-  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/159"
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/159",
+  "validatedIssueId": 214,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-munchables-findings/issues/214"
 }
