@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "The `triggerPlotMetadata` function is prone to back-running attack, which can force the landlord to use an undesired tax rate",
   "issueId": 177,
-  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/177"
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/177",
+  "validatedIssueId": 205,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-munchables-findings/issues/205"
 }
