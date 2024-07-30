@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Users can avoid their plots getting `dirty` when the price of assets changes",
   "issueId": 47,
-  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/47"
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/47",
+  "validatedIssueId": 93,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-munchables-findings/issues/93"
 }
