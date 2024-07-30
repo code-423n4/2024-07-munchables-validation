@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Landlords may lose tax due to stakers's lack of required actions",
   "issueId": 323,
-  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/323"
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/323",
+  "validatedIssueId": 135,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-munchables-findings/issues/135"
 }
