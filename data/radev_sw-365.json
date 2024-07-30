@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Inconsistent Staking Rewards Due to Dirty Flag Mismanagement",
   "issueId": 365,
-  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/365"
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/365",
+  "validatedIssueId": 116,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-munchables-findings/issues/116"
 }
