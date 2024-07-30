@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Users can occupy plots but not receive Schnibbles",
   "issueId": 113,
-  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/113"
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/113",
+  "validatedIssueId": 235,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-munchables-findings/issues/235"
 }
