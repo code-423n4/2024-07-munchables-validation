@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Malicious renter can grief landlords to receive fewer schnibbles",
   "issueId": 206,
-  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/206"
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/206",
+  "validatedIssueId": 194,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-munchables-findings/issues/194"
 }
