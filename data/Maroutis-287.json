@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Incorrect percentage calculation in `_farmPlots` leads to significant reduction in `unfedSchnibbles`",
   "issueId": 287,
-  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/287"
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/287",
+  "validatedIssueId": 154,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-munchables-findings/issues/154"
 }
