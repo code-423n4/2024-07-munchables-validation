@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "`landlord` can receive rewards without staked tokens in `lockManager`",
   "issueId": 93,
-  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/93"
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/93",
+  "validatedIssueId": 245,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-munchables-findings/issues/245"
 }
