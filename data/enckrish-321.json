@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Inconsistent valid plotId checks, results in one free plot for landlords",
   "issueId": 321,
-  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/321"
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/321",
+  "validatedIssueId": 137,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-munchables-findings/issues/137"
 }
