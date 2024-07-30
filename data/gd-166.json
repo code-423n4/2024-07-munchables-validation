@@ -4,5 +4,7 @@
   "risk": "2",
   "title": " Incorrect update of lastPetMunchable state",
   "issueId": 166,
-  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/166"
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/166",
+  "validatedIssueId": 208,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-munchables-findings/issues/208"
 }
