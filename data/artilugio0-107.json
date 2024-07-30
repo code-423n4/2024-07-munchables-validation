@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Underflow in _farmPlots lead to stuck munchables",
   "issueId": 107,
-  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/107"
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/107",
+  "validatedIssueId": 238,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-munchables-findings/issues/238"
 }
