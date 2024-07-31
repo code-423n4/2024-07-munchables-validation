@@ -1,0 +1,46 @@
+issue,title,validator comment,status,size,Best
+validation-345,QA Report,1H(1) 1M(2),Satisfactory,67,✰✰✰
+validation-170,QA Report,"1M(4) 3L(1,2,5)",Satisfactory,129,✰✰✰
+findings-23,QA Report,"1H(4) 1M(6) 2L(2,3)",Satisfactory,155,✰✰✰
+findings-55,QA Report,"2L(1,2)",Satisfactory,93,✰✰✰
+validation-97,QA Report,"2L(2,3)",Satisfactory,127,✰✰✰
+validation-116,QA Report,"2H(2,3) 1M(7) 2L(5,6)",Satisfactory,635,✰✰✰
+validation-392,QA Report,1H(1),Unsatisfactory,16,✰✰✰
+validation-199,QA Report,1H(1),Unsatisfactory,19,✰✰✰
+validation-348,QA Report,"2M(1,2)",Unsatisfactory,23,✰✰✰
+findings-39,QA Report,1H(4),Unsatisfactory,103,✰✰✰
+validation-390,QA Report,H(2) ,Unsatisfactory,148,✰✰✰
+validation-20,QA Report,1M(6) 1L(7),Unsatisfactory,736,✰✰✰
+validation-150,Gas Optimizations,no GAS rewards,Unsatisfactory,3,✰✰✰
+validation-192,QA Report,0L,Unsatisfactory,9,✰✰✰
+validation-195,QA Report,0L,Unsatisfactory,10,✰✰✰
+validation-207,QA Report,0L,Unsatisfactory,13,✰✰✰
+validation-179,QA Report,0L,Unsatisfactory,15,✰✰✰
+validation-33,QA Report,0L,Unsatisfactory,15,✰✰✰
+validation-153,QA Report,0L,Unsatisfactory,16,✰✰✰
+validation-189,QA Report,0L,Unsatisfactory,17,✰✰✰
+validation-379,QA Report,1M(1),Unsatisfactory,22,✰✰✰
+validation-254,QA Report,0L,Unsatisfactory,22,✰✰✰
+validation-178,Gas Optimizations,no GAS rewards,Unsatisfactory,29,✰✰✰
+validation-80,QA Report,0L,Unsatisfactory,33,✰✰✰
+validation-361,QA Report,0L,Unsatisfactory,35,✰✰✰
+validation-8,QA Report,0L,Unsatisfactory,38,✰✰✰
+validation-11,QA Report,0L,Unsatisfactory,41,✰✰✰
+validation-229,QA Report,1M(1),Unsatisfactory,42,✰✰✰
+findings-51,QA Report,0L,Unsatisfactory,47,✰✰✰
+validation-242,Gas Optimizations,no GAS rewards,Unsatisfactory,48,✰✰✰
+validation-16,QA Report,0L,Unsatisfactory,51,✰✰✰
+validation-339,QA Report,0L,Unsatisfactory,56,✰✰✰
+validation-277,QA Report,0L,Unsatisfactory,59,✰✰✰
+validation-154,Gas Optimizations,no GAS rewards,Unsatisfactory,76,✰✰✰
+validation-48,QA Report,0L,Unsatisfactory,81,✰✰✰
+validation-251,QA Report,0L,Unsatisfactory,87,✰✰✰
+validation-32,Gas Optimizations,no GAS rewards,Unsatisfactory,115,✰✰✰
+validation-213,QA Report,0L,Unsatisfactory,210,✰✰✰
+validation-185,QA Report,0L,Unsatisfactory,213,✰✰✰
+validation-335,QA Report,1L(5),Unsatisfactory,222,✰✰✰
+validation-30,QA Report,1M(5),Unsatisfactory,284,✰✰✰
+validation-362,QA Report,1L(1),Unsatisfactory,436,✰✰✰
+findings-63,QA Report,0L,Unsatisfactory,839,✰✰✰
+validation-214,Gas Optimizations,no GAS rewards,Unsatisfactory,972,✰✰✰
+validation-59,QA Report,0L,Unsatisfactory,26,✰✰✰
