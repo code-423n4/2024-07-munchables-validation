@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Deflation of Total Schnibbles Value Due to Error in Bonus Math Calculation",
   "issueId": 70,
-  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/70"
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/70",
+  "validatedIssueId": 304,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-munchables-findings/issues/304"
 }
