@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "Non-updated timestamp in `updateTaxRate` skews schnibble rewards for invalid plots",
   "issueId": 64,
-  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/64"
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/64",
+  "validatedIssueId": 306,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-munchables-findings/issues/306"
 }
