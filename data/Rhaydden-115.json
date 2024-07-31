@@ -4,5 +4,7 @@
   "risk": "3",
   "title": "Incorrect bonus calculation in `_farmPlots` function leading to undervaluation of `schnibblesTotal`",
   "issueId": 115,
-  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/115"
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/115",
+  "validatedIssueId": 302,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-munchables-findings/issues/302"
 }
