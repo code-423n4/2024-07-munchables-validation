@@ -4,5 +4,7 @@
   "risk": "2",
   "title": "triggerPlotMetadata() can be frontrun to avoid taxRates",
   "issueId": 266,
-  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/266"
+  "issueUrl": "https://github.com/code-423n4/2024-07-munchables-validation/issues/266",
+  "validatedIssueId": 325,
+  "validatedIssueUrl": "https://github.com/code-423n4/2024-07-munchables-findings/issues/325"
 }
